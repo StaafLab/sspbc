@@ -8,3 +8,23 @@ The included single-sample predictor (SSP) models were developed using gene expr
 Description on how to use sspbc with examples and testdata is provided with the R package. 
 
 For citation use Staaf J. et al. medRxiv 2021.12.03.21267116 (https://doi.org/10.1101/2021.12.03.21267116).
+
+# Installation Instructions
+
+**sspbc** depends on R packages **e1071**, **methods**, **stats**, and **grid**. Make sure to install these dependencies before installing **sspbc**.
+
+To use the sspbc R package download and install from the provided <a href="https://github.com/StaafLab/sspbc/blob/main/package/sspbc_1.0.tar.gz">source package</a>.
+
+### Install from terminal prompt
+
+<code>R CMD INSTALL sspbc_1.0.tar.gz</code>
+
+### Install from local source file from R prompt
+
+<code>install.packages("~/Downloads/sspbc_1.0.tar.gz", repos = NULL, type="source")</code>
+
+### Install from the R app menu
+
+Go to 'Packages and Data' and select 'Package Installer'.
+
+Under Packages Repository select 'Local Source Package' and click 'Install...' then browse to find the downloaded source package file.
